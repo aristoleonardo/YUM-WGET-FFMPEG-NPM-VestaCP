@@ -4,8 +4,8 @@
 wget http://dl.mycity.tech/vesta/generate_ssl -O /usr/local/bin/generate_ssl
 chmod u+x /usr/local/bin/generate_ssl
 
-cert_src="/home/admin/conf/web/ssl.vmi180252.contaboserver.net.pem"
-key_src="/home/admin/conf/web/ssl.vmi180252.contaboserver.net.key"
+cert_src="/home/admin/conf/web/ssl.yourdomain.com.pem"
+key_src="/home/admin/conf/web/ssl.yourdomain.com.key"
 cert_dst="/usr/local/vesta/ssl/certificate.crt"
 key_dst="/usr/local/vesta/ssl/certificate.key"
 

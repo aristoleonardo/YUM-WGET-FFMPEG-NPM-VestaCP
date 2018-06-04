@@ -68,13 +68,15 @@
 
 #INSTALL -- FFMPEG
         cd
-        https://raw.githubusercontent.com/trixvivo/YUM-WGET-FFMPEG-NPM-VestaCP/master/ffmpeg.sh
+        wget https://raw.githubusercontent.com/trixvivo/YUM-WGET-FFMPEG-NPM-VestaCP/master/ffmpeg.sh
         bash ffmpeg.sh
 
 #CLEAR -- ALL Files
         cd
+	rm -rf install.log
+	rm -rf install.log.syslog
         rm -rf vst-install.sh
+	rm -rf vst-install-rhel.sh
         rm -rf ffmpeg.sh
-
         
 
